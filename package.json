@@ -1,0 +1,16 @@
+{
+  "name": "percy-visual-testing",
+  "version": "1.0.0",
+  "description": "Percy Visual Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TestCafe",
+    "Visual",
+    "Testing"
+  ],
+  "author": "ChrstphGrnr",
+  "license": "MIT"
+}
