@@ -4,7 +4,7 @@
   "description": "Percy Visual Testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:percy": "percy exec -- testcafe chrome ./tests"
   },
   "keywords": [
     "TestCafe",
@@ -12,5 +12,9 @@
     "Testing"
   ],
   "author": "ChrstphGrnr",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@percy/testcafe": "^0.2.0",
+    "testcafe": "^1.8.4"
+  }
 }
