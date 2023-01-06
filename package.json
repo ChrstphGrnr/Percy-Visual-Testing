@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "@percy/testcafe": "^0.2.0",
-    "testcafe": "^1.8.4"
+    "testcafe": "^1.20.1"
   }
 }
